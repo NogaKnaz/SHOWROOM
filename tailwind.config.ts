@@ -17,9 +17,12 @@ export default {
 				'2xl': '1400px'
 			}
 		},
-		extend: {
-			colors: {
-				border: 'hsl(var(--border))',
+			extend: {
+				fontFamily: {
+					brand: ['Heebo', 'ui-sans-serif', 'system-ui', 'sans-serif']
+				},
+				colors: {
+					border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
